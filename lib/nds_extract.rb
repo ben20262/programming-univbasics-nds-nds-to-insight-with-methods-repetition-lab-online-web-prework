@@ -46,8 +46,8 @@ def total_gross(source)
   money_hash = directors_totals(source)
   counter = 0
   total = 0
-  direct_array.each do |name|
-    total += money_hash[:name]
+  direct_array.each_value do |money|
+    total += money
   end
   total
 end
