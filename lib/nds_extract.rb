@@ -47,7 +47,7 @@ def total_gross(source)
   counter = 0
   total = 0
   direct_array.each do |name|
-    total += money_hash[0][:name]
+    total += money_hash[:name]
   end
   total
 end
