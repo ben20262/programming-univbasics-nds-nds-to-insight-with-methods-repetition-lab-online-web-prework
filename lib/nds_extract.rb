@@ -49,6 +49,7 @@ def total_gross(source)
   while counter < money_hash.size do
     name = direct_array[counter]
     total += money_hash[name]
+    counter += 1
   end
   total
 end
